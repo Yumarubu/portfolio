@@ -1,0 +1,40 @@
+header h1{
+    background-color: greenyellow;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+div.container div.sidebar {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 15px;
+}
+
+div.container div.item{
+    display:flex;
+    margin-left: 20px;
+}
+
+div.container div.profile{
+    flex-direction:column;
+    padding: 25px;
+}
+
+header{
+    flex-direction: row;
+}
+
+div.mainprofile.item {
+    flex-direction: row;
+}
+
+div.copyline{
+    text-align:center;
+    background-color:aqua;
+    margin-top: 20px;
+}

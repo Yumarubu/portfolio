@@ -1,0 +1,24 @@
+div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+    div.container div.sidebar {
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        padding: 15px;
+    }
+
+    div.container div.appeal {
+        flex-direction: row;
+        margin: 15px;
+    }
+
+        div.container div.appeal h2 {
+            margin-left: 10px;
+        }
+
+div.container2 div.looking_back p {
+}

@@ -1,0 +1,21 @@
+div.container div.summarize .sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 15px;
+}
+
+div.container div.summarize .appel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+div.container div.summarize {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

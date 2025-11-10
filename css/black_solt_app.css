@@ -1,0 +1,33 @@
+div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+    div.container div.sidebar {
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        padding: 15px;
+    }
+
+    div.container div.apeel {
+        flex-direction: row;
+        margin: 15px;
+    }
+
+        div.container div.apeel.title {
+            margin: 10px;
+        }
+
+        div.container div.apeel h2 {
+            margin-bottom: -15px;
+        }
+
+        div.container div.apeel.text li {
+            margin-left: -15px;
+        }
+
+        div.container div.apeel.text2 p {
+            margin-bottom: -10px;
+        }
